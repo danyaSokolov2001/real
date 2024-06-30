@@ -1,0 +1,255 @@
+body {
+  background-color: rgb(246, 249, 250);
+}
+.site-name {
+  font-family: "Jaini", system-ui;
+  font-style: normal;
+  font-size: 90px;
+  width: 20px;
+  text-align: center;
+  margin-left: 350px;
+  color: blueviolet;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  margin-left: 330px;
+}
+.container-hdr {
+  max-width: 1300px;
+  padding-left: 300px;
+  backdrop-filter: blur(6px); 
+}
+.body-img {
+  background-position: center;
+background-attachment: fixed;
+background-size: cover;
+background: url(background2.jpg) top center  1000px 1000px fixed padding-box content-box 
+}
+.link-list {
+  margin-top: -50px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  color: rgb(82, 157, 223);
+  
+}
+.link {
+  font-size: x-large;
+  margin-top: -30px;
+margin-right: 500px;
+font-style: oblique;
+margin-left: -300px;
+  font-style: normal;
+  font-family: "Poetsen One", sans-serif;
+display: flex;
+text-align: center;
+color: rgb(255, 255, 255);
+}
+.link-two {
+  font-size: x-large;
+  margin-top: -30px;
+margin-right: 200px;
+font-style: oblique;
+margin-left: 90px;
+  font-style: normal;
+  font-family: "Poetsen One", sans-serif;
+display: flex;
+text-align: center;
+}
+.link-a {
+text-decoration: none;
+color: rgb(254, 255, 255);
+}
+.site-name-a {
+text-decoration: none;
+color: rgb(136, 40, 226);
+}
+.hover-effect {
+position: relative;
+display: inline-block;
+}
+
+.additional-words {
+position: absolute;
+left: 100;
+display: none;
+padding: 0px;
+/* border: 1px solid #1b1919;
+border-radius: 5px; */
+margin-left: -310px;
+font-size: large;
+font-family: "Poetsen One", sans-serif;
+}
+
+.hover-effect:hover .additional-words {
+display: block;
+}
+.hover-one {
+text-decoration: none;
+color: cadetblue;
+display: list-item;
+margin-top: 10px;
+}
+.hover-two {
+text-decoration: none;
+color: cadetblue;
+display: list-item;
+margin-top: 50px;
+}
+.hover-three {
+text-decoration: none;
+color: rgb(12, 212, 219);
+display: list-item;
+margin-top: 84px;
+}
+.hover-four {
+text-decoration: none;
+color: cadetblue;
+display: list-item;
+margin-top: 118px;
+}
+.hover-five {
+text-decoration: none;
+color: cadetblue;
+display: list-item;
+margin-top: 150px;
+}
+.hover-six {
+text-decoration: none;
+color: cadetblue;
+display: list-item;
+margin-top: 190px;
+margin-left: 10px;
+}
+.hover-second {
+text-decoration: none;
+color: cadetblue;
+display: list-item;
+margin-top: -5px;
+margin-left: 420px; 
+}
+.hover-second-two {
+text-decoration: none;
+color: cadetblue;
+display: list-item;
+margin-top: 46px;
+margin-left: 425px; 
+}
+.hover-second-three {
+text-decoration: none;
+color: cadetblue;
+display: list-item;
+margin-top: 78px;
+margin-left: 425px; 
+}
+.hover-second-four {
+text-decoration: none;
+color: cadetblue;
+display: list-item;
+margin-top: 108px;
+margin-left: 423px; 
+}
+
+
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("imagee.jpg");
+  
+    /* Control the height of the image */
+    min-height: 480px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    position: absolute;
+    right: 580px;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  /* .bg-img-two {
+    
+    background-image: url("imageee.jpg");
+  
+   
+    min-height: 380px;
+  
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  } */
+  /* .container-two {
+    position: relative;
+    right: 0;
+    margin:0px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+    margin-left: 20px;
+
+  } */
+  .sign-in {
+    font-size: x-large;
+    margin-top: 620px;
+    margin-left: 1270px;
+
+  }
+  .sign-in-a {
+    text-decoration: none;color: rgb(25, 22, 187);
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-radius: 5px;
+  }
+  html {
+    overflow: hidden;
+  }

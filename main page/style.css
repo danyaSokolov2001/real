@@ -1,0 +1,129 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poetsen One', sans-serif;
+}
+
+.body-img {
+  background: url(back.jpg) no-repeat center center fixed;
+  background-size: cover;
+  /* background-image: ; */
+}
+
+.container-hdr {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+  backdrop-filter: blur(6px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+    z-index: 1000;
+}
+
+.site-name {
+  font-family: 'Jaini', sans-serif;
+  font-size: 110px;
+  color: blueviolet;
+  margin-right: 0px;
+  padding-right: 120px;
+  padding-left: 70px;
+  margin-top: -20px;
+}
+
+.site-name-a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-list {
+list-style-type: none;
+  display: flex;
+  gap: 100px;
+  margin: 0;
+  padding: 0;
+  color: rgb(82, 157, 223);
+  flex: 1;
+  margin-left: 15px;
+  margin-right: 50px;
+  z-index: 50;
+}
+
+.link,
+.link-two {
+  position: relative;
+}
+
+.link-a {
+  text-decoration: none;
+  color: rgb(40, 172, 233);
+  font-size: 28px;
+}
+
+.hover-effect .additional-words {
+  display: none;
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  z-index: 10;
+}
+
+.hover-effect:hover .additional-words {
+  display: block;
+}
+
+.hover-item {
+  text-decoration: none;
+  color: rgb(17, 227, 235);
+  display: block;
+  margin: 5px 0;
+}
+
+.ticket-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25vh;
+}
+
+.ticket-img {
+  height: 150px;
+  width: auto;
+  border: 2px solid black;
+  border-radius: 15px;
+  transform: rotate(15deg);
+  transition: transform 0.3s;
+}
+
+.ticket-container a:nth-child(2) .ticket-img {
+  transform: rotate(-15deg);
+}
+
+.ticket-img:hover {
+  transform: rotate(0deg);
+}
+
+@media (max-width: 768px) {
+  .site-name {
+    font-size: 60px;
+  }
+
+  .link-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .ticket-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
