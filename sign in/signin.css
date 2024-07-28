@@ -67,3 +67,16 @@ body {
     .btn:hover {
       opacity: 1;
     }
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    #content {
+      opacity: 1;
+      transition: opacity 0.5s ease;
+    }
+    
+    #content.fade-out {
+      opacity: 0;
+    }
